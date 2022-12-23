@@ -1,0 +1,132 @@
+<body>
+{
+		background-image: linear-
+		gradient(rgba(27, 27, 27, 0.5),rgba(150, 144, 144, 0.5)),url(.jpg);
+		background-size:cover;
+		background-position:center;
+}
+.booking-form-box
+{
+		max-width: 800px;
+		max-hight: 700px;
+		border: 1px solid #161616;
+		margin: 10% auto 0;
+}
+.radio-btn
+{
+	margin: 0 20px;
+}
+.radio-btn .btn
+{
+	margin: 20px 10px 20px 0;
+	box-shadow: none;
+}
+.radio-btn .btn::after
+{
+	content: ' ';
+	height: 15px;
+	width: 15px;
+	top: -2px;
+	left: -1px;
+	background-color: rgb(230, 215, 215);
+	position: relative;
+	display: inline-block;
+	border: 3px solid #;
+	visiblity:  visible;
+	border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+	content: ' ';
+	background-color: rgb(22, 21, 21);
+	transition: 0.5s;
+}
+.radio-btn span
+{
+	color: #000;
+	margin-right: 5px;
+	font-size:12px;
+}	
+.booking-from
+{
+	padding: 0 20px 20px;
+
+}
+.booking-form label
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #000;
+}
+input::placeholder
+{
+	color: #000  !important;
+}
+.input-grp
+{
+	width: 151px;
+	color: #000;
+	display: inline-block;
+
+}
+.form-control
+{
+	font-size: 12px ! important;
+	border-radius: 0 ! important;
+	color: #000  ! important;
+	background: transparent ! important;
+	box-shodow: none ! important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-out-spin-button
+{
+	-webkit-appearance: none;
+	margin: 0;
+}
+.select-date::-webkit-calender-picker-indicator
+{
+	background: transparent!important;
+}
+.custom-select
+{
+	color: #000!important;
+	font-size: 12px!important;
+	border: 1px solid #ced4da!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	background: transparent!important;
+}
+.custom-select option
+{
+	color: #333;
+}
+.flight
+{
+	width: 100%;
+	padding: 9px 0!important;
+	font-size: 12px!important;
+	border: 1px solid #ced4da!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+}
+.flight:hover
+{
+	background: #000!important;
+	color: #fff!important;
+	transition: 0.5s;
+}
+
+{	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #ff0000;
+}
+.signup a:hover{
+	background-color: red;
+	transition: 0.6s;
+}
